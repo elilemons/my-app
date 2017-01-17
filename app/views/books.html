@@ -1,0 +1,9 @@
+<div ng-controller="BookCtrl as bookListCtrl">
+  <a href="#" class="list-group-item" ng-repeat="book in bookListCtrl.books">
+    <div class="list-group text-left">
+
+      <h2 class="list-group-item-heading">{{book.title}}</h4>
+        <p class="list-group-item-text">{{book.review}}</p>
+    </div>
+  </a>
+</div>
