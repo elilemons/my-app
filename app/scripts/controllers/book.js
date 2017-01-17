@@ -18,8 +18,8 @@
         restrict: 'E',
         templateUrl: 'views/books.html',
         replace: true
-      }
-    })
+      };
+    });
 
   
   var genres = [ 'fable', 'fantasy', 'fiction', 'folklore', 'horror', 'humor', 'legend', 'metafiction', 'mystery', 'mythology', 'non-fiction', 'poetry' ];
@@ -36,7 +36,7 @@
       title: 'HTML for Babies',
       author: 'John C Vanden-Heuvel Sr',
       isbn: '0615487661',
-      review: "It's never too early to be standards compliant! I taught my little one mark-up in under one hour!",
+      review: 'It is never too early to be standards compliant! I taught my little one mark-up in under one hour!',
       rating: 5,
       genres: { fiction: true }
     },{

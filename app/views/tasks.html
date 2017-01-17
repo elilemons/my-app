@@ -1,0 +1,9 @@
+<div ng-controller="TaskCtrl as taskListCtrl">
+  <a href="#" class="list-group-item" ng-repeat="task in tasks">
+    <div class="list-group text-left">
+
+      <h3 class="list-group-item-heading">{{task.title}}</h4>
+        <p class="list-group-item-text">{{task.status}}</p>
+    </div>
+  </a>
+</div>
