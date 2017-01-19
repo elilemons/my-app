@@ -3,7 +3,8 @@
 - Status as a badge (ng-class)
 - Color of task card changes with status
 - Out of list-style mode, render as cards
-
+- Sort by status 
+- Search
 ## If possible
 - each card editable
 
